@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and lists</title>
+</head>
+<body>
+    <ul type="circle">
+        <li>Item 1 of unorder list</li>
+        <li>Item 2 of unorder list</li>
+        <li>Item 3 of unorder list</li>
+
+        <ul type="square">
+            <li>Item 1 of nested list</li>
+            <li>Item 2 of nested list</li>
+        </ul>
+        <li>Item 4 of unorder list</li>
+    </ul>
+    <ol type="A">
+        <li>Item 1 of order list</li>
+        <li>Item 2 of order list</li>
+        <li>Item 3 of order list</li>
+        <li>Item 4 of order list</li>
+    </ol>
+    <!-- TABLE -->
+     <h3>Sample Table</h3>
+     <table>    
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Hashim Arshad</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ali Khan</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ahmed Raza</td>
+                <td>22</td>
+            </tr>
+     </table>
+
+     <!-- forms -->
+      <h2>Sample Form</h2>
+      <form action =backend.php>
+        
+        <div>
+            <label for="my name">Name:</label>
+        <input type="text" name="my name" id="my name">
+        </div>
+            <br>
+        <div>
+           Role: <input type="text" name="my role">
+        </div>  
+             <br>
+        <div>
+           Email: <input type="text" name="my email">
+        </div>
+            <br>
+        <div>
+            Date: <input type="date" value="my date">
+        </div>
+             <br>
+        <div>
+         Gender: Male<input type="radio" name="my gender" value="male">
+                 Female<input type="radio" name="my gender" value="female">
+        </div>
+            <br>
+         <div>
+         eligible: <input type="checkbox" value="my eligible">
+        </div>
+            <br>
+         <div>
+         Write about yourself: <textarea name="about_yourself" rows="14" cols="50"></textarea>
+        </div> 
+            <br>
+        <div>
+        <label for="car">car</label>
+        <select name="my car" id="car">
+            <option value="volvo">Volvo</option>
+            <option value="bmw" selected>BMW</option>
+            <option value="audi">Audi</option>
+        </select>
+        </div>
+            <br>
+        <div>
+        <input type="submit" value="submit now">
+        <input type="reset" value="reset">
+        </div>
+
+
+      </form>
+</body>
+</html>

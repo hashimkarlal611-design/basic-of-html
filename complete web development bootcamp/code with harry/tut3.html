@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* element selector */
+        p{
+            border: 2px solid green;
+        }
+        /* internal css styling */
+        /* id selector */
+       #blueelement{
+            color:blue;
+            background-color:bisque;
+        }
+        /* class selector */
+        .redelement{
+            color:red;
+            background-color:bisque;
+        }
+
+        p{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            line-height: 3.5 em;
+            /* here em is unit we can write it without it or with other units */
+        }
+
+        span{
+            font-weight:bold
+        }
+
+        #p-color{
+            color:rgb(104, 160, 160);
+        }
+
+        #border-margin{
+            background-color: rgb(168, 110, 110);
+            height: 100px;
+            width: 300px;
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: blue; */
+            border: 5px solid blue;
+            border-radius: 13px;
+
+        }
+        </style>
+</head>
+<body>
+    <h3>css selectors</h3>
+    <p id="blueelement">This is a simple paragraph to demonstrate CSS selectors.</p>
+    <p id="secondpara" class="blueelement redelement">This is a simple paragraph to demonstrate CSS selectors.</p>
+    
+    <div>
+    <p>This is a simple paragraph to demonstrate CSS selectors.</p>
+    </div>
+
+    <h2>developer tools</h2>
+    <p style="font-style: italic;">This is a simple <span>demonstration</span> of developer tools.</p>
+    
+    <h2>para color</h2>
+    <p id="p-color">This is a simple demonstration of paragraph color.</p>
+    
+    <h2>this is for border color margin</h2>
+    <p id="border-margin">This is a simple demonstration of boder color.</p>
+
+</body>
+</html>

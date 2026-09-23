@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style> 
+    .container{
+        background-color: rgb(103, 153, 155);
+        border: 5px solid #224080;
+        padding: 20px;
+        margin: 20px;
+    }
+    </style>
+
+    <style>
+
+        .contain{
+            width: 900px;
+            border: 2px solid green;
+            margin:100px auto;
+            background-color: rgb(105, 80, 133);
+        }
+
+        .item{
+            border: 2px solid grey;
+            margin: 10px 12px;
+            padding: 10px;
+            background-color: rgb(117, 146, 173);
+        }
+
+        #fruit{
+            float: left;
+            width: 250px;
+        }
+        /* to set the overlap bw fruit and pencil clear both is used */
+
+        #pencil{
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <h1>Box Model</h1>
+    <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime a ipsam sit corrupti doloribus quae illo impedit earum consectetur recusandae eveniet consequuntur animi officia sed ratione dolorem, corporis molestiae dicta delectus! Laboriosam, nemo optio.</p>
+</div> 
+
+    <div class="container">
+    <h1>Box Model</h1>
+    <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime a ipsam sit corrupti doloribus quae illo impedit earum consectetur recusandae eveniet consequuntur animi officia sed ratione dolorem, corporis molestiae dicta delectus! Laboriosam, nemo optio.</p>
+ </div>
+
+   <div class="container"> 
+    <h1>Box Model</h1>
+    <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime a ipsam sit corrupti doloribus quae illo impedit earum consectetur recusandae eveniet consequuntur animi officia sed ratione dolorem, corporis molestiae dicta delectus! Laboriosam, nemo optio.</p>
+</div>
+
+
+<div class="contain">
+
+    <div id ="fruit" class ="item">
+        <h3>fruits</h3>
+        <p id ="fruitpara" class="para">This is a fruit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam ratione quos a placeat, quaerat vero ipsa dolorum hic numquam voluptatem nam tempora dignissimos, voluptates et illum dolor repudiandae nostrum.</p>
+    </div>
+
+    <div id ="computer" class ="item">
+        <h3>computers</h3>
+        <p id ="computerpara" class="para">This is a computer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam ratione quos a placeat, quaerat vero ipsa dolorum hic numquam voluptatem nam tempora dignissimos, voluptates et illum dolor repudiandae nostrum.</p>
+    </div>
+    
+    <div id ="pencil" class ="item">
+        <h3>pencils</h3>
+        <p id ="pencilpara" class="para">This is a pencil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam ratione quos a placeat, quaerat vero ipsa dolorum hic numquam voluptatem nam tempora dignissimos, voluptates et illum dolor repudiandae nostrum.</p>
+    </div>
+    
+</div>
+
+
+
+</body>
+</html>
