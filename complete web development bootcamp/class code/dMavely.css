@@ -1,0 +1,190 @@
+
+
+        /* ---------- General Page Styling ---------- */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #222222;
+        }
+
+        /* ---------- Brand Color ---------- */
+
+        .mavely-blue {
+            color: #087f8c;
+        }
+
+        .bg-mavely {
+            background-color: #087f8c;
+        }
+
+        /* ---------- Navbar ---------- */
+
+        .navbar-brand {
+            font-size: 28px;
+            font-weight: 700;
+            color: #087f8c;
+        }
+
+        .navbar-brand:hover {
+            color: #08444b;
+        }
+
+        .nav-link {
+            font-weight: 500;
+        }
+
+        /* ---------- Search Box ---------- */
+
+        .main-search {
+            border-radius: 25px;
+            border: 1px solid #dddddd;
+            padding: 12px 20px;
+        }
+
+        .search-button {
+            border-radius: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        /* ---------- Hero/carousel Section ---------- */
+
+        .hero-section {
+            background-color: #eef9fa;
+            padding: 70px 0;
+        }
+
+        .hero-title {
+            font-size: 48px;
+            font-weight: 700;
+             line-height: 1.15;   /*to control height of line */
+        }
+
+        .hero-text {
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.7;
+        }
+
+        .hero-button {
+            padding: 13px 28px;
+            border-radius: 7px;
+            font-weight: 600;    /*to make bloder*/
+        }
+
+        /* ---------- Section Titles ---------- */
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: #777777;
+            margin-bottom: 35px;
+        }
+
+        /* ---------- Category Cards ---------- */
+
+        .category-card {
+            border: 1px solid #eeeeee;
+            border-radius: 12px;
+            padding: 25px 15px;
+            text-align: center;
+            height: 100%;
+            transition: 0.2s;
+        }
+
+        .category-card:hover {
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .category-icon {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        /* ---------- Medicine Cards ---------- */
+
+        .medicine-card {
+            border: 1px solid #eeeeee;
+            border-radius: 12px;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .medicine-card img {
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .medicine-card .card-body {
+            padding: 20px;
+        }
+
+        .medicine-name {
+            font-weight: 700;
+        }
+
+        .medicine-description {
+            color: #666666;
+            font-size: 14px;
+        }
+
+        /* ---------- How It Works ---------- */
+
+        .step-number {
+            width: 55px;
+            height: 55px;
+            background-color: #087f8c;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            margin: auto;
+        }
+
+        .step-card {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* ---------- Pharmacy Section ---------- */
+
+        .pharmacy-section {
+            background-color: #f7fafa;
+        }
+
+        /* ---------- Feature Boxes ---------- */
+
+        .feature-box {
+            border: 1px solid #eeeeee;
+            border-radius: 10px;
+            padding: 25px;
+            height: 100%;
+        }
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        /* ---------- Footer ---------- */
+
+        footer {
+            background-color: #12383d;
+            color: white;
+        }
+
+        footer a {
+            color: #dddddd;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
