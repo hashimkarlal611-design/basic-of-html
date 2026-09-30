@@ -1,0 +1,251 @@
+/* /* =============================
+/* MAVELY GLOBAL BACKGROUND */
+/* ============================= */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(20, 184, 166, 0.25),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(37, 99, 235, 0.22),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #dffaf6,
+      #eaf3ff
+    );
+
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+
+/* ============================= */
+/* FORM CONTAINER */
+/* ============================= */
+
+.mavely-card {
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f0fdfa
+  );
+
+  border: 1px solid rgba(15, 118, 110, 0.12);
+  border-radius: 18px;
+
+  box-shadow:
+    0 12px 35px rgba(15, 118, 110, 0.18);
+
+  overflow: hidden;
+
+  transition: 0.3s ease;
+}
+
+
+/* Card gets slightly lifted when mouse is over it */
+
+.mavely-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 40px rgba(15, 118, 110, 0.22);
+}
+
+
+/* ============================= */
+/* FORM TITLE */
+/* ============================= */
+
+.mavely-title {
+  color: #0f766e;
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+
+/* Title reacts when hovered */
+
+.mavely-title:hover {
+  color: #2563eb;
+}
+
+
+/* ============================= */
+/* FORM LABEL */
+/* ============================= */
+
+.form-label {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+
+/* ============================= */
+/* INPUTS */
+/* ============================= */
+
+.form-control,
+.form-select {
+  background-color: #ffffff;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+
+  padding: 10px 12px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+
+/* When user clicks inside input */
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #f0fdfa;
+
+  border-color: #0f766e;
+
+  box-shadow:
+    0 0 0 0.2rem rgba(15, 118, 110, 0.18);
+
+  outline: none;
+}
+
+
+/* When mouse is over input */
+
+.form-control:hover,
+.form-select:hover {
+  border-color: #14b8a6;
+}
+
+
+/* ============================= */
+/* MAVELY BUTTON */
+/* ============================= */
+
+.mavely-btn {
+  background-color: #0f766e;
+
+  border: none;
+  color: #ffffff;
+
+  border-radius: 9px;
+
+  padding: 11px;
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+
+/* Mouse over */
+
+.mavely-btn:hover {
+  background-color: #115e59;
+
+  color: #ffffff;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 5px 12px rgba(15, 118, 110, 0.25);
+}
+
+
+/* When button is clicked */
+
+.mavely-btn:active {
+  background-color: #064e3b;
+
+  transform: translateY(1px);
+
+  box-shadow: none;
+}
+
+
+/* ============================= */
+/* LINKS / CLICKABLE TEXT */
+/* ============================= */
+
+.mavely-link {
+  color: #2563eb;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+
+/* Hover */
+
+.mavely-link:hover {
+  color: #0f766e;
+
+  text-decoration: underline;
+}
+
+
+/* Click */
+
+.mavely-link:active {
+  color: #064e3b;
+}
+
+
+/* ============================= */
+/* CHECKBOX */
+/* ============================= */
+
+.form-check-input {
+  cursor: pointer;
+}
+
+
+/* Checkbox when selected */
+
+.form-check-input:checked {
+  background-color: #0f766e;
+
+  border-color: #0f766e;
+}
+
+
+/* Checkbox focus */
+
+.form-check-input:focus {
+  border-color: #0f766e;
+
+  box-shadow:
+    0 0 0 0.2rem rgba(15, 118, 110, 0.15);
+}
+
+
+/* ============================= */
+/* MUTED TEXT */
+/* ============================= */
+
+.mavely-muted {
+  color: #64748b;
+} 
